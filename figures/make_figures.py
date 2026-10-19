@@ -228,7 +228,7 @@ def plot_values(path):
         "Удельный показатель\nкадастровой стоимости",
         "Удельный показатель\nрыночной стоимости",
     ]
-    values = [3063.55, 1503.48]
+    values = [3063.55, 1421.89]
     colors = ["#5c5c5c", "#9a2b2b"]
     bars = ax.bar(labels, values, color=colors, width=0.55, zorder=3)
     ax.set_ylabel("руб. за 1 кв. м", fontname=FONT, fontsize=11)
